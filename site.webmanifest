@@ -1,0 +1,16 @@
+{
+  "name": "PixelWave",
+  "short_name": "PixelWave",
+  "description": "Agence digitale premium à Casablanca.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080E",
+  "theme_color": "#08080E",
+  "icons": [
+    {
+      "src": "/public/logo.png",
+      "sizes": "640x641",
+      "type": "image/png"
+    }
+  ]
+}

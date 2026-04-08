@@ -1,0 +1,38 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14131F"/>
+      <stop offset="1" stop-color="#090A0E"/>
+    </linearGradient>
+    <filter id="shadow" x="110" y="88" width="1380" height="1024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000000" flood-opacity="0.48"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1200" fill="#0A0A0F"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <circle cx="286" cy="180" r="222" fill="#6C3FE8" fill-opacity="0.16"/>
+  <circle cx="1260" cy="942" r="240" fill="#C9A84C" fill-opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <rect x="134" y="112" width="1332" height="976" rx="46" fill="#10131B" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <rect x="650" y="186" width="738" height="246" rx="30" fill="#131723" stroke="#C9A84C" stroke-opacity="0.18"/>
+    <rect x="650" y="474" width="738" height="178" rx="26" fill="#151926"/>
+    <rect x="650" y="694" width="738" height="218" rx="26" fill="#151926"/>
+    <rect x="214" y="182" width="346" height="736" rx="52" fill="#0E1016" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <rect x="254" y="230" width="266" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="254" y="294" width="266" height="164" rx="30" fill="#161B29"/>
+    <rect x="254" y="490" width="266" height="104" rx="24" fill="#161B29"/>
+    <rect x="254" y="622" width="266" height="104" rx="24" fill="#161B29"/>
+    <rect x="254" y="754" width="266" height="104" rx="24" fill="#161B29"/>
+    <circle cx="386" cy="874" r="30" fill="#C9A84C"/>
+    <circle cx="386" cy="874" r="64" fill="#C9A84C" fill-opacity="0.16"/>
+    <text x="688" y="266" fill="#E8C96B" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2.2">CASAXA MOBILE</text>
+    <text x="688" y="336" fill="#F0F0FF" font-family="Arial, sans-serif" font-size="76" font-weight="800">Stock App</text>
+    <text x="688" y="388" fill="#9090B0" font-family="Arial, sans-serif" font-size="22">Application mobile terrain pour saisir, scanner et synchroniser</text>
+    <text x="688" y="548" fill="#F0F0FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Saisie mobile simplifiee</text>
+    <text x="688" y="596" fill="#A1A6BA" font-family="Arial, sans-serif" font-size="20">Mouvements de stock, consultation rapide et synchro web</text>
+    <text x="688" y="774" fill="#F0F0FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Usage terrain optimise</text>
+    <text x="688" y="822" fill="#A1A6BA" font-family="Arial, sans-serif" font-size="20">Experience mobile-first pour les equipes operationnelles</text>
+    <rect x="688" y="854" width="500" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="688" y="892" width="384" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.08"/>
+  </g>
+</svg>

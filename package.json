@@ -1,0 +1,28 @@
+{
+  "name": "pixelwaves",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PixelWave landing page with a local React and Tailwind build.",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "tailwindcss -i ./src/tailwind.css -o ./styles.css",
+    "build:js": "esbuild app.jsx --bundle --outfile=app.js --format=iife --target=es2018",
+    "optimize:images": "node ./scripts/optimize-images.mjs",
+    "predev": "npm run build",
+    "dev": "concurrently \"npm:watch:css\" \"npm:watch:js\" \"npm:serve\"",
+    "serve": "node server.js",
+    "start": "node server.js",
+    "watch:css": "tailwindcss -i ./src/tailwind.css -o ./styles.css --watch",
+    "watch:js": "esbuild app.jsx --bundle --outfile=app.js --format=iife --target=es2018 --watch"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.28.0",
+    "nodemailer": "^8.0.5",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.17"
+  }
+}

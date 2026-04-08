@@ -1,0 +1,44 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="1560" y1="0" x2="180" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19161A"/>
+      <stop offset="1" stop-color="#090A0E"/>
+    </linearGradient>
+    <clipPath id="screen">
+      <rect x="108" y="96" width="1384" height="1008" rx="42"/>
+    </clipPath>
+    <filter id="shadow" x="44" y="54" width="1512" height="1092" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000000" flood-opacity="0.48"/>
+    </filter>
+    <linearGradient id="fade" x1="800" y1="96" x2="800" y2="1104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(10,10,15,0.14)"/>
+      <stop offset="0.4" stop-color="rgba(10,10,15,0.18)"/>
+      <stop offset="0.72" stop-color="rgba(10,10,15,0.56)"/>
+      <stop offset="1" stop-color="rgba(10,10,15,0.9)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="#090A0E"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <circle cx="1260" cy="160" r="212" fill="#C9A84C" fill-opacity="0.14"/>
+  <circle cx="270" cy="980" r="250" fill="#6C3FE8" fill-opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <rect x="84" y="70" width="1432" height="1060" rx="48" fill="#0E1016" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <g clip-path="url(#screen)">
+      <image href="./vias-preview.jpg" x="50" y="-18" width="1500" height="1160" preserveAspectRatio="xMidYMid slice"/>
+      <rect x="108" y="96" width="1384" height="1008" fill="url(#fade)"/>
+    </g>
+    <rect x="108" y="96" width="1384" height="1008" rx="42" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <rect x="150" y="136" width="220" height="58" rx="29" fill="#121419" fill-opacity="0.76" stroke="#C9A84C" stroke-opacity="0.28"/>
+    <circle cx="186" cy="165" r="7" fill="#F0D25E"/>
+    <text x="208" y="172" fill="#F5D76B" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">PROJET REALISE</text>
+    <rect x="944" y="174" width="454" height="250" rx="30" fill="#11131A" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="986" y="238" fill="#F0F0FF" font-family="Arial, sans-serif" font-size="46" font-weight="700">VIAS Machine</text>
+    <text x="986" y="294" fill="#E8C96B" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2">SUIVI MACHINES · TEMPS REEL</text>
+    <text x="986" y="350" fill="#D6D8DE" font-family="Arial, sans-serif" font-size="28">Declaration terrain, parc machine</text>
+    <text x="986" y="388" fill="#D6D8DE" font-family="Arial, sans-serif" font-size="28">et dashboard admin</text>
+    <rect x="170" y="914" width="286" height="64" rx="32" fill="#121419" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="218" y="955" fill="#FFD34D" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2">APPLICATION WEB SUPABASE</text>
+    <rect x="944" y="894" width="380" height="84" rx="42" fill="#11131A" fill-opacity="0.7" stroke="#C9A84C" stroke-opacity="0.22"/>
+    <text x="1000" y="948" fill="#F6D66E" font-family="Arial, sans-serif" font-size="32" font-weight="700">32 sites suivis · 236 machines</text>
+  </g>
+</svg>

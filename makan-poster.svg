@@ -1,0 +1,48 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="1600" y1="0" x2="160" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17121E"/>
+      <stop offset="1" stop-color="#090A10"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="244" y1="948" x2="1358" y2="948" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(201,168,76,0)"/>
+      <stop offset="0.5" stop-color="#E8C96B"/>
+      <stop offset="1" stop-color="rgba(201,168,76,0)"/>
+    </linearGradient>
+    <clipPath id="shot">
+      <rect x="110" y="92" width="1380" height="1016" rx="42"/>
+    </clipPath>
+    <filter id="shadow" x="54" y="56" width="1492" height="1088" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.46"/>
+    </filter>
+    <linearGradient id="bgFade" x1="800" y1="92" x2="800" y2="1108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(10,10,15,0.12)"/>
+      <stop offset="0.32" stop-color="rgba(10,10,15,0.18)"/>
+      <stop offset="0.72" stop-color="rgba(10,10,15,0.62)"/>
+      <stop offset="1" stop-color="rgba(10,10,15,0.9)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="#0A0A0F"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <circle cx="1270" cy="180" r="220" fill="#6C3FE8" fill-opacity="0.14"/>
+  <circle cx="246" cy="210" r="190" fill="#C9A84C" fill-opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <rect x="86" y="68" width="1428" height="1064" rx="48" fill="#0E1018" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <g clip-path="url(#shot)">
+      <image href="./makan-preview.jpg" x="64" y="36" width="1472" height="1110" preserveAspectRatio="xMidYMid slice"/>
+      <rect x="110" y="92" width="1380" height="1016" fill="url(#bgFade)"/>
+    </g>
+    <rect x="110" y="92" width="1380" height="1016" rx="42" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <rect x="152" y="134" width="232" height="58" rx="29" fill="#11131A" fill-opacity="0.72" stroke="#C9A84C" stroke-opacity="0.26"/>
+    <circle cx="188" cy="163" r="7" fill="#E8C96B"/>
+    <text x="208" y="171" fill="#F6D775" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.6">PROJET REALISE</text>
+    <text x="178" y="842" fill="#F3F1EA" font-family="Georgia, serif" font-size="122" font-style="italic">Luxury</text>
+    <text x="178" y="918" fill="#F3F1EA" font-family="Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="10">MAKAN LUXURY MOTORS</text>
+    <text x="178" y="986" fill="#D8D2C2" font-family="Arial, sans-serif" font-size="30">Showroom digital premium pour vehicules de prestige</text>
+    <rect x="178" y="1018" width="344" height="64" rx="32" fill="#11131A" fill-opacity="0.68" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="226" y="1058" fill="#E8C96B" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2">PLATEFORME AUTOMOBILE PREMIUM</text>
+    <rect x="1180" y="160" width="246" height="246" rx="32" fill="#101219" fill-opacity="0.44" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="1246" y="278" fill="#E8C96B" font-family="Arial, sans-serif" font-size="116" font-weight="700">M</text>
+    <line x1="246" y1="948" x2="1358" y2="948" stroke="url(#goldLine)" stroke-width="2"/>
+  </g>
+</svg>
