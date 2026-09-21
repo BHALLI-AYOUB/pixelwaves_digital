@@ -1,0 +1,275 @@
+export default {
+  locale: "en",
+  ogLocale: "en_US",
+  meta: {
+    title: "PixelWaves Digital — Web, E-commerce & SaaS Studio in Casablanca",
+    description:
+      "PixelWaves Digital is a digital studio in Casablanca designing and building premium websites, e-commerce stores, SaaS products and custom platforms. See our work and start your project.",
+  },
+  skipLink: "Skip to content",
+  newTab: "(opens in a new tab)",
+
+  nav: {
+    label: "Main",
+    links: [
+      { id: "home", label: "Home" },
+      { id: "about", label: "About" },
+      { id: "projects", label: "Projects" },
+      { id: "services", label: "Services" },
+      { id: "contact", label: "Contact" },
+    ],
+    cta: "Start a project",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    language: "Language",
+    homeLabel: "PixelWaves Digital, back to top",
+  },
+
+  hero: {
+    kicker: "Digital studio · Casablanca",
+    titleStart: "We build",
+    rotating: ["websites", "e-commerce", "SaaS", "platforms"],
+    titleEnd: "that set the standard.",
+    srTitle: "We build websites, e-commerce stores, SaaS products and custom platforms that set the standard.",
+    lead: "PixelWaves designs and engineers premium websites, online stores, SaaS products and custom digital experiences — fast, precise and built to grow.",
+    primary: "Start a project",
+    secondary: "View our work",
+    featuredLabel: "Featured project",
+    scroll: "Scroll to explore",
+  },
+
+  marquee: { label: "Brands we've built for" },
+
+  about: {
+    label: "About PixelWaves",
+    statement: [
+      "PixelWaves is a digital studio from Casablanca.",
+      "We design and build websites, platforms and products for brands that",
+      { accent: "refuse to look ordinary." },
+    ],
+    pillars: [
+      {
+        title: "Design and code, one team",
+        text: "Strategy, UI/UX and engineering under one roof, so nothing gets lost between the mockup and the launch.",
+      },
+      {
+        title: "Performance by default",
+        text: "Fast load times, clean code, technical SEO and accessibility are part of every build — not an upsell.",
+      },
+      {
+        title: "Built to grow",
+        text: "Scalable architecture and long-term support, from the first launch to your next ten features.",
+      },
+    ],
+  },
+
+  work: {
+    label: "Selected work",
+    title: "Real products,",
+    titleAccent: "live on the web.",
+    intro:
+      "E-commerce, SaaS, luxury and automotive. A selection of platforms we've designed and built for ambitious brands.",
+    visit: "Visit website",
+    caseStudy: "View case study",
+    stats: {
+      shipped: "products shipped",
+      live: "platforms live today",
+      languages: "languages delivered",
+      reply: "to answer every brief",
+    },
+    testimonialsLabel: "Client words",
+    testimonialsTitle: "What our clients say.",
+    moreTitle: "More projects",
+    privateLabel: "Private project",
+  },
+
+  services: {
+    label: "Services",
+    title: "Everything you need to launch, sell and scale online.",
+    intro: "From a first landing page to a full SaaS product, we take care of strategy, design, development and launch.",
+    cta: "Discuss your project",
+    startPrefix: "Start a project:",
+    items: [
+      {
+        title: "Web Development",
+        formValue: "Website",
+        text: "High-performance websites and web apps built with modern frameworks, optimised for speed, SEO and conversion.",
+        tags: ["Next.js", "React", "Headless CMS"],
+      },
+      {
+        title: "E-commerce",
+        formValue: "E-commerce",
+        text: "Online stores that sell: product catalogues, smooth checkout, payments, delivery and a back-office your team can run.",
+        tags: ["Catalogue", "Checkout", "Payments"],
+      },
+      {
+        title: "Custom Platforms",
+        formValue: "Custom platform",
+        text: "Marketplaces, booking systems, dashboards and internal tools shaped around the way your business actually works.",
+        tags: ["Marketplaces", "Booking", "Dashboards"],
+      },
+      {
+        title: "SaaS Development",
+        formValue: "SaaS",
+        text: "From MVP to scalable product: authentication, subscriptions, admin panels, analytics and multi-tenant architecture.",
+        tags: ["MVP", "Subscriptions", "APIs"],
+      },
+      {
+        title: "UI/UX Design",
+        formValue: "UI/UX design",
+        text: "Interfaces with a clear hierarchy and conversion-focused journeys, prototyped and validated before a line of code.",
+        tags: ["Figma", "Prototyping", "Design systems"],
+      },
+      {
+        title: "Mobile Development",
+        formValue: "Mobile app",
+        text: "Cross-platform iOS and Android apps with native-grade performance, connected to your web platform.",
+        tags: ["Flutter", "iOS", "Android"],
+      },
+      {
+        title: "Digital Transformation",
+        formValue: "Custom platform",
+        text: "Automation, integrations, cloud and DevOps that modernise how your business runs and remove repetitive work.",
+        tags: ["Automation", "Cloud", "CI/CD"],
+      },
+    ],
+  },
+
+  process: {
+    label: "Process",
+    title: "From first call to launch.",
+    stepLabel: "Step",
+    steps: [
+      { title: "Discover", text: "We clarify your goals, audience and scope, then turn them into a focused plan and estimate." },
+      { title: "Design", text: "Wireframes, visual direction and interactive prototypes you review before development starts." },
+      { title: "Build", text: "Clean, tested code shipped in short iterations, with a preview link so you can follow every step." },
+      { title: "Launch & grow", text: "Performance and SEO checks, go-live and analytics, then ongoing improvements and support." },
+    ],
+  },
+
+  founder: {
+    label: "Founder",
+    role: "CEO / Founder",
+    statement: "Every PixelWaves project is led by the person who builds it.",
+    bio: "Full-stack engineer with a background in Java, Spring Boot, React and Flutter, and a strong DevOps mindset. Ayoub founded PixelWaves to give ambitious brands a partner who is as demanding about the code as about the design.",
+    skills: ["Java", "Spring Boot", "React", "Flutter", "Angular", "DevOps", "Azure", "Docker"],
+    portraitAlt: "Portrait of Ayoub Bhalli, CEO and founder of PixelWaves Digital",
+    linkedin: "LinkedIn profile",
+    github: "GitHub profile",
+    email: "Email Ayoub",
+  },
+
+  faq: {
+    label: "FAQ",
+    title: "Questions, answered.",
+    intro: "Can't find what you're looking for?",
+    introLink: "Ask us directly",
+    items: [
+      {
+        q: "How long does a project take?",
+        a: "A focused brand website can launch within a few weeks. Larger builds such as e-commerce stores, platforms or SaaS products follow a roadmap we agree on together, based on scope and priorities.",
+      },
+      {
+        q: "Do you handle both design and development?",
+        a: "Yes. We cover strategy, UI/UX design, front-end and back-end development, integrations, hosting and launch — one team from start to finish.",
+      },
+      {
+        q: "Can you redesign our existing website?",
+        a: "Absolutely. We regularly rebuild outdated sites with a new visual identity, clearer structure, better mobile experience, faster performance and stronger SEO.",
+      },
+      {
+        q: "What happens after launch?",
+        a: "We stay on board for maintenance, improvements, new features, performance monitoring and conversion optimisation, so your product keeps getting better.",
+      },
+      {
+        q: "How do we get started?",
+        a: "Send us a brief through the form or WhatsApp. We reply within 24 hours with questions and next steps, then define the scope, priorities and estimate together.",
+      },
+    ],
+  },
+
+  contact: {
+    label: "Contact",
+    title: "Have a project in mind?",
+    titleAccent: "Let's build something great.",
+    lead: "Tell us about your idea. We reply within 24 hours with questions, a direction and next steps.",
+    channels: {
+      email: "Email",
+      whatsapp: "WhatsApp",
+      whatsappValue: "Chat with us",
+      phone: "Phone",
+      location: "Studio",
+      locationValue: "Casablanca, Morocco",
+    },
+    follow: "Follow PixelWaves",
+    form: {
+      title: "Project brief",
+      name: "Your name",
+      email: "Email",
+      phone: "Phone",
+      optional: "optional",
+      timeline: "Timeline",
+      timelinePlaceholder: "Select a timeline",
+      timelineOptions: ["As soon as possible", "Within a month", "In 1–3 months", "Flexible"],
+      type: "What do you need?",
+      typeOptions: ["Website", "E-commerce", "Custom platform", "SaaS", "Mobile app", "UI/UX design", "Redesign"],
+      message: "Tell us about your project",
+      messagePlaceholder: "Goals, audience, features, links you like…",
+      submit: "Send brief",
+      sending: "Sending…",
+      privacy: "By sending this form you agree to our",
+      privacyLink: "privacy policy",
+      errors: {
+        nom: "Please add your name.",
+        email: "Please add your email.",
+        emailInvalid: "Please enter a valid email.",
+        projet: "Please choose a project type.",
+        message: "Please describe your project.",
+        summary: "A few fields need your attention.",
+      },
+      success: "Thank you! Your brief is in. We'll get back to you within 24 hours.",
+      failure: "Something went wrong while sending. You can send the same brief on WhatsApp instead.",
+      whatsappFallback: "Send on WhatsApp",
+      briefIntro: "Hello PixelWaves, here is my project brief:",
+    },
+  },
+
+  caseStudy: {
+    breadcrumb: "Work",
+    breadcrumbLabel: "Breadcrumb",
+    visit: "Visit live site",
+    similar: "Start a similar project",
+    overviewLabel: "The project",
+    featuresLabel: "What we built",
+    factsLabel: "At a glance",
+    categoryLabel: "Category",
+    sectorLabel: "Industry",
+    websiteLabel: "Website",
+    stackLabel: "Stack & scope",
+    screensLabel: "Inside the product",
+    screensTitle: "Real screens from the live website.",
+    mobileLabel: "On mobile",
+    mobileTitle: "Built for the phone in every hand.",
+    homeScreen: "Homepage",
+    nextLabel: "Next project",
+    ctaTitle: "Have a project like this in mind?",
+    ctaText: "Tell us what you want to build. We reply within 24 hours with questions, a direction and next steps.",
+    ctaButton: "Start a project",
+    screenshotAlt: (name, caption) => `${name}: ${caption}`,
+    metaTitle: (name, category) => `${name} — ${category} case study | PixelWaves Digital`,
+  },
+
+  footer: {
+    tagline: "Digital studio designing and building websites, e-commerce stores and SaaS products.",
+    navigate: "Navigate",
+    services: "Services",
+    contact: "Contact",
+    follow: "Follow",
+    legal: "Legal notice",
+    privacy: "Privacy",
+    rights: "All rights reserved.",
+    backToTop: "Back to top",
+  },
+
+  whatsappFloat: "Chat with PixelWaves on WhatsApp",
+};

@@ -1,16 +1,23 @@
 {
-  "name": "PixelWave",
-  "short_name": "PixelWave",
-  "description": "Agence digitale premium à Casablanca.",
+  "name": "PixelWaves Digital — Studio",
+  "short_name": "PixelWaves",
+  "description": "PixelWaves Digital is a digital studio in Casablanca designing and building premium websites, e-commerce stores, SaaS products and custom platforms. See our work and start your project.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#08080E",
-  "theme_color": "#08080E",
+  "background_color": "#07060b",
+  "theme_color": "#07060b",
   "icons": [
     {
-      "src": "/public/logo.png",
-      "sizes": "640x641",
-      "type": "image/png"
+      "src": "/public/brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

@@ -1,11 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>/</loc></url>
-  <url><loc>/#services</loc></url>
-  <url><loc>/#projets</loc></url>
-  <url><loc>/#equipe</loc></url>
-  <url><loc>/#a-propos</loc></url>
-  <url><loc>/#contact</loc></url>
-  <url><loc>/mentions-legales.html</loc></url>
-  <url><loc>/confidentialite.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/elitegear/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/elitegear/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/elitegear/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/elitegear/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/elitegear/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/elitegear/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/mastertimepiece/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/mastertimepiece/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/mastertimepiece/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/mastertimepiece/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/mastertimepiece/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/mastertimepiece/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/desirparent/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/desirparent/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/desirparent/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/desirparent/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/desirparent/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/desirparent/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/photodamour/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/photodamour/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/photodamour/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/photodamour/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/photodamour/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/photodamour/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/ffastcar/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/ffastcar/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/ffastcar/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/ffastcar/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/ffastcar/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/ffastcar/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/makan/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/makan/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/makan/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/makan/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/makan/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/makan/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/work/casaxa/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/casaxa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/casaxa/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/fr/projets/casaxa/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pixelwaves-digital.vercel.app/work/casaxa/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pixelwaves-digital.vercel.app/fr/projets/casaxa/" />
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/mentions-legales.html</loc>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://pixelwaves-digital.vercel.app/confidentialite.html</loc>
+    <lastmod>2026-09-21</lastmod>
+  </url>
 </urlset>
