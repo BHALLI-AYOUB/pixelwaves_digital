@@ -1,6 +1,7 @@
 // Progressive enhancement for the static pages: navigation, scroll reveals,
 // pointer glows, light parallax and the contact form. Everything works without it.
 import { track } from "./analytics.js";
+import { initHeroWaves } from "./hero-waves.js";
 
 const root = document.documentElement;
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -155,6 +156,10 @@ if ("IntersectionObserver" in window) {
   revealTargets.forEach((target) => target.classList.add("is-in"));
   root.classList.add("past-hero");
 }
+
+/* ─── Hero pixel waves ─────────────────────────────────────────── */
+const heroWaves = document.querySelector("[data-hero-waves]");
+if (heroWaves) initHeroWaves(heroWaves, { reduceMotion });
 
 /* ─── Pointer glows & hero depth (desktop pointers only) ───────── */
 if (finePointer.matches) {

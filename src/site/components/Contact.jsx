@@ -1,4 +1,5 @@
 import React from "react";
+import { servicePages, servicePaths } from "../data/services.mjs";
 import { site } from "../data/site.mjs";
 import { Icon, Logo } from "./Brand.jsx";
 import { LangSwitch } from "./Header.jsx";
@@ -206,9 +207,9 @@ export function SiteFooter({ t, locale, base = "", showLang = true, alternates }
           <div>
             <p className="t-label footer-title">{footer.services}</p>
             <ul className="footer-links">
-              {t.services.items.slice(0, 5).map((service) => (
-                <li key={service.title}>
-                  <a href={`${base}#services`}>{service.title}</a>
+              {servicePages.map((page) => (
+                <li key={page.id}>
+                  <a href={servicePaths[locale](page)}>{page[locale].navLabel}</a>
                 </li>
               ))}
             </ul>

@@ -17,9 +17,9 @@
     },
     { "src": "/public/(fonts|work|team|brand)/(.*)", "headers": { "cache-control": "public, max-age=604800, stale-while-revalidate=2592000" }, "continue": true },
     { "src": "/fr", "status": 308, "headers": { "Location": "/fr/" } },
-    { "src": "/(work|fr/projets)/([^/]+)", "status": 308, "headers": { "Location": "/$1/$2/" } },
+    { "src": "/(work|fr/projets|services|fr/services)/([^/]+)", "status": 308, "headers": { "Location": "/$1/$2/" } },
     { "src": "/fr/", "dest": "/fr/index.html" },
-    { "src": "/(work|fr/projets)/([^/]+)/", "dest": "/$1/$2/index.html" },
+    { "src": "/(work|fr/projets|services|fr/services)/([^/]+)/", "dest": "/$1/$2/index.html" },
     { "handle": "filesystem" },
     { "src": "/api/(.*)", "dest": "/api/$1" },
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }

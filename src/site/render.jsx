@@ -2,10 +2,11 @@ import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { legalPages } from "./data/legal.mjs";
 import { projects } from "./data/projects.mjs";
+import { serviceAlternates, servicePages, servicePaths } from "./data/services.mjs";
 import { absoluteUrl, caseAlternates, casePaths, site } from "./data/site.mjs";
 import en from "./i18n/en.mjs";
 import fr from "./i18n/fr.mjs";
-import { CasePage, HomePage, LegalPage, NotFoundPage } from "./pages.jsx";
+import { CasePage, HomePage, LegalPage, NotFoundPage, ServicePage } from "./pages.jsx";
 
 const translations = { en, fr };
 
@@ -18,6 +19,10 @@ function html(element) {
 // Every page with its translations, so each sitemap entry lists its hreflang siblings.
 function sitemapEntries() {
   const entries = Object.values(site.localePaths).map((url) => ({ url, alternates: site.localePaths }));
+  for (const page of servicePages) {
+    const alternates = serviceAlternates(page);
+    for (const url of Object.values(alternates)) entries.push({ url, alternates });
+  }
   for (const project of projects) {
     const alternates = caseAlternates(project.slug);
     for (const url of Object.values(alternates)) entries.push({ url, alternates });
@@ -68,6 +73,12 @@ export function renderPages({ assets }) {
   return [
     { path: "index.html", content: html(<HomePage t={en} locale="en" assets={assets} />) },
     { path: "fr/index.html", content: html(<HomePage t={fr} locale="fr" assets={assets} />) },
+    ...servicePages.flatMap((page) =>
+      Object.keys(translations).map((locale) => ({
+        path: `${servicePaths[locale](page).slice(1)}index.html`,
+        content: html(<ServicePage t={translations[locale]} locale={locale} page={page} assets={assets} />),
+      })),
+    ),
     ...projects.flatMap((project, index) => {
       const next = projects[(index + 1) % projects.length];
       return Object.keys(translations).map((locale) => ({

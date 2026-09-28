@@ -1,8 +1,9 @@
 import React from "react";
+import { servicePages, servicePaths } from "../data/services.mjs";
 import { site } from "../data/site.mjs";
 import { Icon, PortraitImage } from "./Brand.jsx";
 
-export function Services({ t }) {
+export function Services({ t, locale }) {
   const services = t.services;
 
   return (
@@ -22,6 +23,15 @@ export function Services({ t }) {
               <Icon name="arrowRight" className="h-4 w-4" />
             </span>
           </a>
+          <ul className="service-page-links">
+            {servicePages.map((page) => (
+              <li key={page.id}>
+                <a className="link-underline" href={servicePaths[locale](page)}>
+                  {page[locale].navLabel}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div>

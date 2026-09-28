@@ -2,9 +2,9 @@ export default {
   locale: "en",
   ogLocale: "en_US",
   meta: {
-    title: "PixelWaves Digital — Web, E-commerce & SaaS Studio in Casablanca",
+    title: "Web Development Agency in Casablanca, Morocco | PixelWaves Digital",
     description:
-      "PixelWaves Digital is a digital studio in Casablanca designing and building premium websites, e-commerce stores, SaaS products and custom platforms. See our work and start your project.",
+      "Web agency in Casablanca building fast websites, e-commerce stores, booking platforms, SaaS and mobile apps with Next.js, React and Flutter. For clients in Morocco, Europe and the UAE. Get a quote.",
   },
   skipLink: "Skip to content",
   newTab: "(opens in a new tab)",
@@ -257,6 +257,18 @@ export default {
     ctaButton: "Start a project",
     screenshotAlt: (name, caption) => `${name}: ${caption}`,
     metaTitle: (name, category) => `${name} — ${category} case study | PixelWaves Digital`,
+  },
+
+  servicePage: {
+    breadcrumb: "Services",
+    cta: "Get a quote",
+    work: "See our work",
+    includedLabel: "What's included",
+    stackLabel: "Technologies",
+    proofLabel: "Recent projects",
+    proofTitle: "Built by us, live today.",
+    faqTitle: "Questions about this service.",
+    relatedLabel: "Other services",
   },
 
   footer: {

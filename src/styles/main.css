@@ -707,6 +707,16 @@
     pointer-events: none;
   }
 
+  /* Canvas drawn by src/client/hero-waves.js. Faded on the left so the headline keeps its contrast. */
+  .hero-waves {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-mask-image: linear-gradient(100deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 35%, #000 70%);
+    mask-image: linear-gradient(100deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 35%, #000 70%);
+  }
+
   .hero-grid {
     position: absolute;
     inset: 0;
@@ -3185,5 +3195,64 @@
     opacity: 1;
     translate: none;
     clip-path: none;
+  }
+}
+
+/* ─── Service pages ─────────────────────────────────────────────── */
+@layer components {
+  .service-hero {
+    padding-bottom: clamp(4.5rem, 10vw, 8rem);
+  }
+
+  /* Service headlines are sentences, not short project names. */
+  .service-hero-title {
+    font-size: clamp(2.5rem, 1rem + 4.5vw, 5.5rem);
+    max-width: 16ch;
+  }
+
+  .service-work {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .service-work .next-cat {
+    max-width: 44ch;
+  }
+
+  .service-related-list {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .service-related-list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .service-related-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid rgba(12, 10, 19, 0.12);
+    border-radius: var(--radius-xl);
+    font-weight: 600;
+    transition: border-color 0.3s var(--ease), background-color 0.3s var(--ease);
+  }
+
+  .service-related-list a:hover {
+    border-color: rgba(124, 58, 237, 0.5);
+    background-color: rgba(124, 58, 237, 0.06);
+  }
+
+  .service-page-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    margin-top: 1.75rem;
+    font-size: 0.9375rem;
   }
 }

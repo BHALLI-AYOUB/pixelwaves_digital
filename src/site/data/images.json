@@ -1,0 +1,579 @@
+{
+  "work": {
+    "elitegear": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#f8f8f8"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#f8f8f8"
+      },
+      "shots": {
+        "catalogue": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "product": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "components": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          }
+        }
+      }
+    },
+    "mastertimepiece": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#181818"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#080808"
+      },
+      "shots": {
+        "collections": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "product": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "catalogue": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          }
+        }
+      }
+    },
+    "desirparent": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#f8f8f8"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#f8f8f8"
+      },
+      "shots": {
+        "how": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8e8f8"
+          }
+        },
+        "pricing": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "signup": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          }
+        }
+      }
+    },
+    "photodamour": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#585858"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#080808"
+      },
+      "shots": {
+        "packages": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "founder": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#080808"
+          }
+        },
+        "contact": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          }
+        }
+      }
+    },
+    "ffastcar": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#080808"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#080808"
+      },
+      "shots": {
+        "fleet": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#080808"
+          }
+        },
+        "services": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#080808"
+          }
+        },
+        "contact": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          }
+        }
+      }
+    },
+    "makan": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#080808"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#080808"
+      },
+      "shots": {
+        "inventory": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#080808"
+          }
+        },
+        "vehicle": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#181818"
+          }
+        },
+        "sourcing": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          }
+        }
+      }
+    },
+    "casaxa": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#f8f8f8"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#183858"
+      },
+      "shots": {
+        "products": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#e8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#082848"
+          }
+        },
+        "b2b": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#e8f8f8"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#f8f8f8"
+          }
+        },
+        "quote": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#f8f8f8"
+          }
+        }
+      }
+    }
+  },
+  "portrait": {
+    "widths": [
+      400,
+      520
+    ],
+    "aspect": 0.8,
+    "color": "#080808"
+  }
+}

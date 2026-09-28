@@ -57,6 +57,7 @@ export function Hero({ t, locale }) {
           <span className="eclipse-core" />
           <span className="eclipse-ring" />
         </div>
+        <canvas className="hero-waves" data-hero-waves />
         <div className="hero-vignette" />
       </div>
 

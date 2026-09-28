@@ -4,9 +4,11 @@ import { CaseStudy } from "./components/CaseStudy.jsx";
 import { Contact, SiteFooter, WhatsAppFloat } from "./components/Contact.jsx";
 import { SiteHeader } from "./components/Header.jsx";
 import { Hero } from "./components/Hero.jsx";
+import { ServiceContent } from "./components/ServicePage.jsx";
 import { Faq, Founder, Process, Services } from "./components/Services.jsx";
 import { Work } from "./components/Work.jsx";
 import { projects } from "./data/projects.mjs";
+import { serviceAlternates, servicePaths } from "./data/services.mjs";
 import { absoluteUrl, caseAlternates, casePaths, site } from "./data/site.mjs";
 import { Document } from "./Document.jsx";
 
@@ -26,7 +28,23 @@ function homeJsonLd(t, locale) {
         image: absoluteUrl("/public/brand/og.jpg"),
         email: site.email,
         telephone: site.phone,
-        address: { "@type": "PostalAddress", addressLocality: site.city, addressCountry: site.countryCode },
+        address: { "@type": "PostalAddress", addressLocality: site.city, addressRegion: site.region, addressCountry: site.countryCode },
+        areaServed: site.areaServed.map((name) => ({ "@type": "Country", name })),
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "sales",
+          telephone: site.phone,
+          email: site.email,
+          availableLanguage: ["French", "English"],
+        },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: t.services.label,
+          itemListElement: t.services.items.map((service) => ({
+            "@type": "Offer",
+            itemOffered: { "@type": "Service", name: service.title, description: service.text, areaServed: site.areaServed },
+          })),
+        },
         founder: { "@type": "Person", name: site.founder, jobTitle: t.founder.role, sameAs: [site.github] },
         knowsAbout: t.services.items.map((service) => service.title),
         sameAs: site.socials.map((social) => social.href),
@@ -77,7 +95,7 @@ export function HomePage({ t, locale, assets }) {
         <Hero t={t} locale={locale} />
         <About t={t} />
         <Work t={t} locale={locale} />
-        <Services t={t} />
+        <Services t={t} locale={locale} />
         <Process t={t} />
         <Founder t={t} />
         <Faq t={t} />
@@ -139,6 +157,69 @@ export function CasePage({ t, locale, project, next, assets }) {
       <SiteHeader t={t} locale={locale} base={home} alternates={alternates} />
       <main id="main">
         <CaseStudy t={t} locale={locale} project={project} next={next} />
+      </main>
+      <SiteFooter t={t} locale={locale} base={home} alternates={alternates} />
+      <WhatsAppFloat t={t} />
+    </Document>
+  );
+}
+
+function serviceJsonLd(t, locale, page) {
+  const home = site.localePaths[locale];
+  const pathname = servicePaths[locale](page);
+  const copy = page[locale];
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: site.name, item: absoluteUrl(home) },
+          { "@type": "ListItem", position: 2, name: t.servicePage.breadcrumb, item: absoluteUrl(`${home}#services`) },
+          { "@type": "ListItem", position: 3, name: copy.navLabel, item: absoluteUrl(pathname) },
+        ],
+      },
+      {
+        "@type": "Service",
+        name: copy.h1,
+        serviceType: copy.navLabel,
+        description: copy.metaDescription,
+        url: absoluteUrl(pathname),
+        inLanguage: locale,
+        provider: { "@type": "ProfessionalService", "@id": absoluteUrl("/#organization"), name: site.name },
+        areaServed: site.areaServed.map((name) => ({ "@type": "Country", name })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: copy.faq.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: { "@type": "Answer", text: item.a },
+        })),
+      },
+    ],
+  };
+}
+
+export function ServicePage({ t, locale, page, assets }) {
+  const home = site.localePaths[locale];
+  const alternates = serviceAlternates(page);
+  return (
+    <Document
+      locale={locale}
+      t={t}
+      title={page[locale].metaTitle}
+      description={page[locale].metaDescription}
+      pathname={servicePaths[locale](page)}
+      alternates={alternates}
+      ogImage="/public/brand/og.jpg"
+      jsonLd={serviceJsonLd(t, locale, page)}
+      assets={assets}
+    >
+      <SiteHeader t={t} locale={locale} base={home} alternates={alternates} />
+      <main id="main">
+        <ServiceContent t={t} locale={locale} page={page} />
+        <Contact t={t} locale={locale} />
       </main>
       <SiteFooter t={t} locale={locale} base={home} alternates={alternates} />
       <WhatsAppFloat t={t} />
