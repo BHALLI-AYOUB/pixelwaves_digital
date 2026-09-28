@@ -1,0 +1,287 @@
+export default {
+  locale: "fr",
+  ogLocale: "fr_FR",
+  meta: {
+    title: "Agence Web à Casablanca : Création de Sites Web & E-commerce | PixelWaves",
+    description:
+      "Agence web à Casablanca : création de sites internet, boutiques e-commerce, plateformes de réservation, SaaS et applications mobiles. Next.js, React, Flutter. Maroc, France, Belgique, Suisse. Demandez un devis.",
+  },
+  skipLink: "Aller au contenu",
+  newTab: "(s'ouvre dans un nouvel onglet)",
+
+  nav: {
+    label: "Principale",
+    links: [
+      { id: "home", label: "Accueil" },
+      { id: "about", label: "À propos" },
+      { id: "projects", label: "Projets" },
+      { id: "services", label: "Services" },
+      { id: "contact", label: "Contact" },
+    ],
+    cta: "Démarrer un projet",
+    openMenu: "Ouvrir le menu",
+    closeMenu: "Fermer le menu",
+    language: "Langue",
+    homeLabel: "PixelWaves Digital, retour en haut",
+  },
+
+  hero: {
+    kicker: "Studio digital · Casablanca",
+    titleStart: "Nous créons des",
+    rotating: ["sites web", "e-shops", "SaaS", "plateformes"],
+    titleEnd: "qui font référence.",
+    srTitle: "Nous créons des sites web, boutiques e-commerce, produits SaaS et plateformes sur mesure qui font référence.",
+    lead: "PixelWaves conçoit et développe des sites web premium, boutiques en ligne, produits SaaS et expériences digitales sur mesure — rapides, précis et pensés pour grandir.",
+    primary: "Démarrer un projet",
+    secondary: "Voir nos projets",
+    featuredLabel: "Projet à la une",
+    scroll: "Défiler pour découvrir",
+  },
+
+  marquee: { label: "Ils nous ont fait confiance" },
+
+  about: {
+    label: "À propos de PixelWaves",
+    statement: [
+      "PixelWaves est un studio digital basé à Casablanca.",
+      "Nous concevons et développons des sites, plateformes et produits pour les marques qui",
+      { accent: "refusent l'ordinaire." },
+    ],
+    pillars: [
+      {
+        title: "Design et code, une seule équipe",
+        text: "Stratégie, UI/UX et développement sous le même toit : rien ne se perd entre la maquette et la mise en ligne.",
+      },
+      {
+        title: "La performance par défaut",
+        text: "Chargement rapide, code propre, SEO technique et accessibilité font partie de chaque projet — pas d'une option.",
+      },
+      {
+        title: "Pensé pour évoluer",
+        text: "Une architecture évolutive et un accompagnement durable, du lancement à vos dix prochaines fonctionnalités.",
+      },
+    ],
+  },
+
+  work: {
+    label: "Projets sélectionnés",
+    title: "Des produits réels,",
+    titleAccent: "en ligne.",
+    intro:
+      "E-commerce, SaaS, luxe et automobile. Une sélection de plateformes conçues et développées pour des marques ambitieuses.",
+    visit: "Voir le site",
+    caseStudy: "Voir l'étude de cas",
+    stats: {
+      shipped: "produits livrés",
+      live: "plateformes en ligne aujourd'hui",
+      languages: "langues livrées",
+      reply: "pour répondre à chaque brief",
+    },
+    testimonialsLabel: "Paroles de clients",
+    testimonialsTitle: "Ce que disent nos clients.",
+    moreTitle: "Autres projets",
+    privateLabel: "Projet privé",
+  },
+
+  services: {
+    label: "Services",
+    title: "Tout pour lancer, vendre et grandir en ligne.",
+    intro: "De la première landing page au produit SaaS complet, nous prenons en charge la stratégie, le design, le développement et le lancement.",
+    cta: "Parler de votre projet",
+    startPrefix: "Démarrer un projet :",
+    items: [
+      {
+        title: "Développement web",
+        formValue: "Site web",
+        text: "Sites et applications web haute performance, développés avec des frameworks modernes et optimisés pour la vitesse, le SEO et la conversion.",
+        tags: ["Next.js", "React", "CMS headless"],
+      },
+      {
+        title: "E-commerce",
+        formValue: "E-commerce",
+        text: "Des boutiques qui vendent : catalogue produits, tunnel d'achat fluide, paiement, livraison et back-office simple à gérer.",
+        tags: ["Catalogue", "Tunnel d'achat", "Paiement"],
+      },
+      {
+        title: "Plateformes sur mesure",
+        formValue: "Plateforme sur mesure",
+        text: "Marketplaces, systèmes de réservation, dashboards et outils internes pensés autour du fonctionnement réel de votre activité.",
+        tags: ["Marketplaces", "Réservation", "Dashboards"],
+      },
+      {
+        title: "Développement SaaS",
+        formValue: "SaaS",
+        text: "Du MVP au produit scalable : authentification, abonnements, back-office, analytics et architecture multi-tenant.",
+        tags: ["MVP", "Abonnements", "APIs"],
+      },
+      {
+        title: "Design UI/UX",
+        formValue: "Design UI/UX",
+        text: "Des interfaces à la hiérarchie claire et des parcours pensés pour convertir, prototypés et validés avant la première ligne de code.",
+        tags: ["Figma", "Prototypage", "Design systems"],
+      },
+      {
+        title: "Développement mobile",
+        formValue: "Application mobile",
+        text: "Applications iOS et Android multiplateformes, aux performances natives et connectées à votre plateforme web.",
+        tags: ["Flutter", "iOS", "Android"],
+      },
+      {
+        title: "Transformation digitale",
+        formValue: "Plateforme sur mesure",
+        text: "Automatisation, intégrations, cloud et DevOps pour moderniser votre activité et supprimer les tâches répétitives.",
+        tags: ["Automatisation", "Cloud", "CI/CD"],
+      },
+    ],
+  },
+
+  process: {
+    label: "Méthode",
+    title: "Du premier appel au lancement.",
+    stepLabel: "Étape",
+    steps: [
+      { title: "Découverte", text: "Nous clarifions vos objectifs, votre cible et le périmètre, puis les traduisons en plan d'action et en estimation." },
+      { title: "Design", text: "Wireframes, direction visuelle et prototypes interactifs à valider avant le début du développement." },
+      { title: "Développement", text: "Un code propre et testé, livré par itérations courtes, avec un lien de prévisualisation pour suivre chaque étape." },
+      { title: "Lancement & suivi", text: "Contrôles performance et SEO, mise en ligne et analytics, puis évolutions et support continus." },
+    ],
+  },
+
+  founder: {
+    label: "Fondateur",
+    role: "CEO / Fondateur",
+    statement: "Chaque projet PixelWaves est piloté par celui qui le construit.",
+    bio: "Ingénieur full-stack formé à Java, Spring Boot, React et Flutter, avec une solide culture DevOps. Ayoub a fondé PixelWaves pour offrir aux marques ambitieuses un partenaire aussi exigeant sur le code que sur le design.",
+    skills: ["Java", "Spring Boot", "React", "Flutter", "Angular", "DevOps", "Azure", "Docker"],
+    portraitAlt: "Portrait d'Ayoub Bhalli, CEO et fondateur de PixelWaves Digital",
+    linkedin: "Profil LinkedIn",
+    github: "Profil GitHub",
+    email: "Écrire à Ayoub",
+  },
+
+  faq: {
+    label: "FAQ",
+    title: "Vos questions, nos réponses.",
+    intro: "Vous ne trouvez pas votre réponse ?",
+    introLink: "Posez-nous la question",
+    items: [
+      {
+        q: "Combien de temps dure un projet ?",
+        a: "Un site de marque bien cadré peut être mis en ligne en quelques semaines. Les projets plus complets — e-commerce, plateformes ou produits SaaS — suivent une feuille de route définie ensemble selon le périmètre et les priorités.",
+      },
+      {
+        q: "Gérez-vous à la fois le design et le développement ?",
+        a: "Oui. Nous couvrons la stratégie, le design UI/UX, le développement front-end et back-end, les intégrations, l'hébergement et la mise en ligne — une seule équipe du début à la fin.",
+      },
+      {
+        q: "Pouvez-vous refondre notre site existant ?",
+        a: "Absolument. Nous modernisons régulièrement des sites vieillissants : nouvelle identité visuelle, structure plus claire, meilleure expérience mobile, performances accrues et SEO renforcé.",
+      },
+      {
+        q: "Que se passe-t-il après la mise en ligne ?",
+        a: "Nous restons à vos côtés pour la maintenance, les améliorations, les nouvelles fonctionnalités, le suivi des performances et l'optimisation des conversions.",
+      },
+      {
+        q: "Comment démarrer ?",
+        a: "Envoyez-nous un brief via le formulaire ou WhatsApp. Nous répondons sous 24 h avec nos questions et les prochaines étapes, puis nous définissons ensemble le périmètre, les priorités et l'estimation.",
+      },
+    ],
+  },
+
+  contact: {
+    label: "Contact",
+    title: "Un projet en tête ?",
+    titleAccent: "Construisons quelque chose de grand.",
+    lead: "Parlez-nous de votre idée. Nous répondons sous 24 h avec nos questions, une direction et les prochaines étapes.",
+    channels: {
+      email: "Email",
+      whatsapp: "WhatsApp",
+      whatsappValue: "Discuter avec nous",
+      phone: "Téléphone",
+      location: "Studio",
+      locationValue: "Casablanca, Maroc",
+    },
+    follow: "Suivre PixelWaves",
+    form: {
+      title: "Brief projet",
+      name: "Votre nom",
+      email: "Email",
+      phone: "Téléphone",
+      optional: "facultatif",
+      timeline: "Délai souhaité",
+      timelinePlaceholder: "Choisir un délai",
+      timelineOptions: ["Dès que possible", "Dans le mois", "D'ici 1 à 3 mois", "Flexible"],
+      type: "De quoi avez-vous besoin ?",
+      typeOptions: ["Site web", "E-commerce", "Plateforme sur mesure", "SaaS", "Application mobile", "Design UI/UX", "Refonte"],
+      message: "Parlez-nous de votre projet",
+      messagePlaceholder: "Objectifs, cible, fonctionnalités, sites que vous aimez…",
+      submit: "Envoyer le brief",
+      sending: "Envoi en cours…",
+      privacy: "En envoyant ce formulaire, vous acceptez notre",
+      privacyLink: "politique de confidentialité",
+      errors: {
+        nom: "Ajoutez votre nom.",
+        email: "Ajoutez votre email.",
+        emailInvalid: "Entrez un email valide.",
+        projet: "Choisissez un type de projet.",
+        message: "Décrivez votre projet.",
+        summary: "Quelques champs sont à compléter.",
+      },
+      success: "Merci ! Votre brief est bien reçu. Nous revenons vers vous sous 24 h.",
+      failure: "L'envoi a rencontré un problème. Vous pouvez envoyer le même brief sur WhatsApp.",
+      whatsappFallback: "Envoyer sur WhatsApp",
+      briefIntro: "Bonjour PixelWaves, voici mon brief projet :",
+    },
+  },
+
+  caseStudy: {
+    breadcrumb: "Projets",
+    breadcrumbLabel: "Fil d'Ariane",
+    visit: "Voir le site en ligne",
+    similar: "Démarrer un projet similaire",
+    overviewLabel: "Le projet",
+    featuresLabel: "Ce que nous avons construit",
+    factsLabel: "En bref",
+    categoryLabel: "Catégorie",
+    sectorLabel: "Secteur",
+    websiteLabel: "Site web",
+    stackLabel: "Stack & périmètre",
+    screensLabel: "Dans le produit",
+    screensTitle: "De vrais écrans du site en ligne.",
+    mobileLabel: "Sur mobile",
+    mobileTitle: "Pensé pour le téléphone de chacun.",
+    homeScreen: "Page d'accueil",
+    nextLabel: "Projet suivant",
+    ctaTitle: "Un projet comme celui-ci en tête ?",
+    ctaText: "Parlez-nous de ce que vous voulez construire. Nous répondons sous 24 h avec nos questions, une direction et les prochaines étapes.",
+    ctaButton: "Démarrer un projet",
+    screenshotAlt: (name, caption) => `${name} : ${caption}`,
+    metaTitle: (name, category) => `${name} — Étude de cas ${category.toLowerCase()} | PixelWaves Digital`,
+  },
+
+  servicePage: {
+    breadcrumb: "Services",
+    cta: "Demander un devis",
+    work: "Voir nos réalisations",
+    includedLabel: "Ce qui est inclus",
+    stackLabel: "Technologies",
+    proofLabel: "Réalisations",
+    proofTitle: "Conçus par nous, en ligne aujourd'hui.",
+    faqTitle: "Vos questions sur ce service.",
+    relatedLabel: "Nos autres services",
+  },
+
+  footer: {
+    tagline: "Studio digital qui conçoit et développe des sites web, boutiques e-commerce et produits SaaS.",
+    navigate: "Navigation",
+    services: "Services",
+    contact: "Contact",
+    follow: "Suivre",
+    legal: "Mentions légales",
+    privacy: "Confidentialité",
+    rights: "Tous droits réservés.",
+    backToTop: "Retour en haut",
+  },
+
+  whatsappFloat: "Discuter avec PixelWaves sur WhatsApp",
+};
