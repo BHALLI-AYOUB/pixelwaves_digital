@@ -7,14 +7,6 @@
     "width": 120,
     "height": 120
   },
-  "desirparent": {
-    "width": 130,
-    "height": 120
-  },
-  "photodamour": {
-    "width": 353,
-    "height": 120
-  },
   "ffastcar": {
     "width": 269,
     "height": 120
@@ -25,6 +17,18 @@
   },
   "casaxa": {
     "width": 256,
+    "height": 120
+  },
+  "lecostume": {
+    "width": 108,
+    "height": 120
+  },
+  "desirparent": {
+    "width": 130,
+    "height": 120
+  },
+  "photodamour": {
+    "width": 353,
     "height": 120
   }
 }

@@ -362,6 +362,57 @@ export const projects = [
       tags: ["React Native", "Espace B2B", "Demandes de devis", "Web & mobile"],
     },
   },
+  {
+    slug: "lecostume",
+    name: "Le Costume",
+    url: "https://lecostume.ma/",
+    domain: "lecostume.ma",
+    logo: { src: "https://lecostume.ma/assets/images/logo.png", background: "light", withName: true },
+    facts: [
+      { value: "19", en: "suits in the catalogue", fr: "costumes au catalogue" },
+      { value: "4", en: "categories: tuxedo, double-breasted, classic, wedding", fr: "catégories : smoking, croisé, classique, mariage" },
+      { value: "7/7", en: "days of customer support", fr: "jours de support client" },
+    ],
+    shots: [
+      { id: "catalogue", url: "https://lecostume.ma/nos-produits.html", mobile: true, en: "The full suit catalogue", fr: "Le catalogue complet des costumes" },
+      { id: "category", url: "https://lecostume.ma/nos-produits.html?categorie=smokings", mobile: true, en: "Filtered by category: tuxedos", fr: "Filtré par catégorie : smokings" },
+      { id: "how", url: "https://lecostume.ma/", scrollToText: "Comment", en: "How renting works, step by step", fr: "Le déroulé de la location, étape par étape" },
+    ],
+    en: {
+      category: "Catalogue site",
+      sector: "Men's suit rental",
+      description:
+        "A suit rental house in Casablanca: tuxedos, double-breasted and wedding suits presented by category, with booking one tap away on WhatsApp and a catalogue the shop updates itself.",
+      overview:
+        "Le Costume rents suits for weddings, evenings and business in Casablanca. The site replaces a scroll through Instagram posts: every suit is photographed, sorted by category and ready to reserve, and the shop can add a new piece without calling us.",
+      features: [
+        "Catalogue sorted by tuxedos, double-breasted, classic and wedding suits",
+        "A photo and a reserve button on every suit",
+        "Category filters on the products page",
+        "Booking by WhatsApp or phone in one tap",
+        "How-it-works steps, from choosing a suit to the fitting",
+        "Catalogue the shop manages itself",
+      ],
+      tags: ["Static site", "Catalogue by category", "WhatsApp booking", "Self-managed catalogue"],
+    },
+    fr: {
+      category: "Site catalogue",
+      sector: "Location de costumes homme",
+      description:
+        "Une maison de location de costumes à Casablanca : smokings, croisés et costumes de mariage présentés par catégorie, avec réservation en un geste sur WhatsApp et un catalogue que la boutique met à jour elle-même.",
+      overview:
+        "Le Costume loue des costumes de mariage, de soirée et business à Casablanca. Le site remplace le défilement des publications Instagram : chaque costume est photographié, classé par catégorie et prêt à réserver, et la boutique peut ajouter une nouvelle pièce sans nous appeler.",
+      features: [
+        "Catalogue classé par smokings, croisés, classiques et costumes de mariage",
+        "Une photo et un bouton de réservation sur chaque costume",
+        "Filtres par catégorie sur la page produits",
+        "Réservation par WhatsApp ou téléphone en un geste",
+        "Étapes de la location, du choix du costume à l'essayage",
+        "Catalogue géré en autonomie par la boutique",
+      ],
+      tags: ["Site statique", "Catalogue par catégorie", "Réservation WhatsApp", "Catalogue autonome"],
+    },
+  },
 ];
 
 // Earlier builds without public screenshots, listed compactly under the showcase.

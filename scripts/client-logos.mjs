@@ -111,15 +111,24 @@ async function processLogo(project) {
 }
 
 await fs.mkdir(outDir, { recursive: true });
-const manifest = {};
+// Keep what is already on disk: a failed download must not drop a working logo.
+const manifest = await fs.readFile(manifestPath, "utf8").then(JSON.parse).catch(() => ({}));
 for (const project of projects) {
   if (!project.logo) continue;
   try {
     manifest[project.slug] = await processLogo(project);
     console.log(`logo ${project.slug} ${manifest[project.slug].width}x${manifest[project.slug].height}`);
   } catch (error) {
-    console.error(`logo ${project.slug} failed: ${error.message}`);
-    process.exitCode = 1;
+    // A site that blocks the download must not drop a logo that was already generated.
+    const existing = path.join(outDir, `${project.slug}.png`);
+    const kept = await sharp(existing).metadata().then((meta) => ({ width: meta.width, height: meta.height })).catch(() => null);
+    if (kept) {
+      manifest[project.slug] = kept;
+      console.warn(`logo ${project.slug}: ${error.message} — keeping the existing file`);
+    } else {
+      console.error(`logo ${project.slug} failed: ${error.message}`);
+      process.exitCode = 1;
+    }
   }
 }
 await fs.writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);

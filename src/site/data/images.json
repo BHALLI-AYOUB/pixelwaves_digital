@@ -566,6 +566,87 @@
           }
         }
       }
+    },
+    "lecostume": {
+      "desktop": {
+        "widths": [
+          480,
+          800,
+          1200,
+          1800,
+          2400
+        ],
+        "aspect": 1.6,
+        "color": "#080808"
+      },
+      "mobile": {
+        "widths": [
+          180,
+          300,
+          600
+        ],
+        "aspect": 0.4621,
+        "color": "#080808"
+      },
+      "shots": {
+        "catalogue": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#080808"
+          }
+        },
+        "category": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          },
+          "mobile": {
+            "widths": [
+              180,
+              300,
+              600
+            ],
+            "aspect": 0.4621,
+            "color": "#080808"
+          }
+        },
+        "how": {
+          "desktop": {
+            "widths": [
+              480,
+              800,
+              1200,
+              1800,
+              2400
+            ],
+            "aspect": 1.6,
+            "color": "#080808"
+          }
+        }
+      }
     }
   },
   "portrait": {
