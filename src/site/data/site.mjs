@@ -29,11 +29,9 @@ export const site = {
   countryCode: "MA",
   // Markets served remotely, listed in the structured data as areaServed.
   areaServed: ["Morocco", "France", "Belgium", "Switzerland", "Luxembourg", "Netherlands", "United Arab Emirates", "Canada"],
-  github: "https://github.com/BHALLI-AYOUB",
   socials: [
     { label: "Instagram", href: "https://www.instagram.com/pixelwaves_digital/" },
     { label: "LinkedIn", href: "https://www.linkedin.com/company/pixelwaves-digital/" },
-    { label: "GitHub", href: "https://github.com/BHALLI-AYOUB" },
   ],
   localePaths: { en: "/", fr: "/fr/" },
   // Cookieless analytics (src/client/analytics.js). Vercel Web Analytics needs to be
