@@ -1,22 +1,25 @@
 {
-  "name": "pixelwaves",
+  "name": "pixelwaves-digital",
   "version": "1.0.0",
   "private": true,
-  "description": "PixelWave landing page with a local React and Tailwind build.",
+  "description": "PixelWaves Digital website: static pages rendered from React/JSX at build time, Tailwind CSS and a small vanilla client script.",
   "scripts": {
-    "build": "npm run build:css && npm run build:js",
-    "build:css": "tailwindcss -i ./src/tailwind.css -o ./styles.css",
-    "build:js": "esbuild app.jsx --bundle --outfile=app.js --format=iife --target=es2018",
-    "optimize:images": "node ./scripts/optimize-images.mjs",
+    "build": "npm run build:css && npm run build:site",
+    "build:css": "tailwindcss -i ./src/styles/main.css -o ./styles.css --minify",
+    "build:site": "node scripts/build.mjs",
     "predev": "npm run build",
-    "dev": "concurrently \"npm:watch:css\" \"npm:watch:js\" \"npm:serve\"",
-    "serve": "node server.js",
-    "start": "node server.js",
-    "watch:css": "tailwindcss -i ./src/tailwind.css -o ./styles.css --watch",
-    "watch:js": "esbuild app.jsx --bundle --outfile=app.js --format=iife --target=es2018 --watch"
+    "dev": "concurrently -k -n site,css,serve \"npm:watch:site\" \"npm:watch:css\" \"npm:serve\"",
+    "watch:site": "node scripts/build.mjs --watch",
+    "watch:css": "tailwindcss -i ./src/styles/main.css -o ./styles.css --watch",
+    "serve": "node --env-file-if-exists=.env server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "capture:projects": "node scripts/capture-projects.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "brand:assets": "node scripts/brand-assets.mjs",
+    "test:contact": "node --env-file-if-exists=.env scripts/test-contact.mjs",
+    "client:logos": "node scripts/client-logos.mjs"
   },
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.42",
     "concurrently": "^9.2.1",
     "esbuild": "^0.28.0",
     "nodemailer": "^8.0.5",
@@ -24,5 +27,8 @@
     "react-dom": "^19.2.4",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17"
+  },
+  "engines": {
+    "node": ">=22.9"
   }
 }
