@@ -1,7 +1,6 @@
 import React from "react";
 import { servicePages, servicePaths } from "../data/services.mjs";
-import { site } from "../data/site.mjs";
-import { Icon, PortraitImage } from "./Brand.jsx";
+import { Icon } from "./Brand.jsx";
 
 export function Services({ t, locale }) {
   const services = t.services;
@@ -101,64 +100,6 @@ export function Process({ t }) {
   );
 }
 
-export function Founder({ t }) {
-  const founder = t.founder;
-
-  return (
-    <section id="founder" className="section sheet theme-dark founder" aria-labelledby="founder-title">
-      <div className="founder-glow" aria-hidden="true" />
-      <div className="shell founder-grid">
-        <figure className="portrait" data-reveal>
-          <PortraitImage alt={founder.portraitAlt} sizes="(min-width: 960px) 432px, 90vw" />
-          <figcaption className="portrait-badge">
-            <span className="portrait-name">{site.founder}</span>
-            <span className="tag">{founder.role}</span>
-          </figcaption>
-        </figure>
-
-        <div data-reveal style={{ "--d": "120ms" }}>
-          <div className="section-label">
-            <span className="num">05</span>
-            <span className="bar" aria-hidden="true" />
-            <p className="t-label">{founder.label}</p>
-          </div>
-          <h2 id="founder-title" className="t-h2">
-            {site.founder}
-          </h2>
-          <p className="founder-role">{founder.role}</p>
-          <p className="founder-statement">{founder.statement}</p>
-          <p className="founder-bio">{founder.bio}</p>
-          <ul className="tag-list">
-            {founder.skills.map((skill) => (
-              <li key={skill} className="tag">
-                {skill}
-              </li>
-            ))}
-          </ul>
-          <div className="founder-links">
-            {site.founderLinkedin && (
-              <a className="btn btn-ghost btn-sm" href={site.founderLinkedin} target="_blank" rel="noopener">
-                <Icon name="linkedin" className="h-4 w-4" />
-                {founder.linkedin}
-                <span className="sr-only"> {t.newTab}</span>
-              </a>
-            )}
-            <a className="btn btn-ghost btn-sm" href={site.github} target="_blank" rel="noopener">
-              <Icon name="github" className="h-4 w-4" />
-              {founder.github}
-              <span className="sr-only"> {t.newTab}</span>
-            </a>
-            <a className="btn btn-ghost btn-sm" href={`mailto:${site.email}`}>
-              <Icon name="mail" className="h-4 w-4" />
-              {founder.email}
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 export function Faq({ t }) {
   const faq = t.faq;
 
@@ -167,7 +108,7 @@ export function Faq({ t }) {
       <div className="shell faq-grid">
         <div className="faq-intro">
           <div className="section-label">
-            <span className="num">06</span>
+            <span className="num">05</span>
             <span className="bar" aria-hidden="true" />
             <p className="t-label">{faq.label}</p>
           </div>

@@ -5,7 +5,7 @@ import { Contact, SiteFooter, WhatsAppFloat } from "./components/Contact.jsx";
 import { SiteHeader } from "./components/Header.jsx";
 import { Hero } from "./components/Hero.jsx";
 import { ServiceContent } from "./components/ServicePage.jsx";
-import { Faq, Founder, Process, Services } from "./components/Services.jsx";
+import { Faq, Process, Services } from "./components/Services.jsx";
 import { Work } from "./components/Work.jsx";
 import { projects } from "./data/projects.mjs";
 import { serviceAlternates, servicePaths } from "./data/services.mjs";
@@ -45,7 +45,6 @@ function homeJsonLd(t, locale) {
             itemOffered: { "@type": "Service", name: service.title, description: service.text, areaServed: site.areaServed },
           })),
         },
-        founder: { "@type": "Person", name: site.founder, jobTitle: t.founder.role, sameAs: [site.github] },
         knowsAbout: t.services.items.map((service) => service.title),
         sameAs: site.socials.map((social) => social.href),
       },
@@ -97,7 +96,6 @@ export function HomePage({ t, locale, assets }) {
         <Work t={t} locale={locale} />
         <Services t={t} locale={locale} />
         <Process t={t} />
-        <Founder t={t} />
         <Faq t={t} />
         <Contact t={t} locale={locale} />
       </main>

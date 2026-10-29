@@ -158,8 +158,3 @@ export function PhoneFrame({ project, shot, sizes, alt, className = "phone", loa
     </span>
   );
 }
-
-export function PortraitImage({ alt, sizes }) {
-  const image = responsive("/public/team/ayoub-bhalli", images.portrait, sizes);
-  return <Picture image={image} alt={alt} />;
-}

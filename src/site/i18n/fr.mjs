@@ -147,18 +147,6 @@ export default {
     ],
   },
 
-  founder: {
-    label: "Fondateur",
-    role: "CEO / Fondateur",
-    statement: "Chaque projet PixelWaves est piloté par celui qui le construit.",
-    bio: "Ingénieur full-stack formé à Java, Spring Boot, React et Flutter, avec une solide culture DevOps. Ayoub a fondé PixelWaves pour offrir aux marques ambitieuses un partenaire aussi exigeant sur le code que sur le design.",
-    skills: ["Java", "Spring Boot", "React", "Flutter", "Angular", "DevOps", "Azure", "Docker"],
-    portraitAlt: "Portrait d'Ayoub Bhalli, CEO et fondateur de PixelWaves Digital",
-    linkedin: "Profil LinkedIn",
-    github: "Profil GitHub",
-    email: "Écrire à Ayoub",
-  },
-
   faq: {
     label: "FAQ",
     title: "Vos questions, nos réponses.",

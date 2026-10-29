@@ -61,7 +61,7 @@ export function Contact({ t, locale }) {
       <div className="contact-glow" aria-hidden="true" />
       <div className="shell">
         <div className="section-label">
-          <span className="num">07</span>
+          <span className="num">06</span>
           <span className="bar" aria-hidden="true" />
           <p className="t-label">{contact.label}</p>
         </div>
